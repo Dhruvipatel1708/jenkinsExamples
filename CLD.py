@@ -1,13 +1,9 @@
 import sys
-n1=int(sys.argv[1])
-n2=int(sys.argv[2])
-r1=n1+n2
-r1=n1-n2
-r1=n1*n2
-r1=n1/n2
+s1=sys.argv[1]
+s2=sys.argv[2]
+s3=sys.argv[3]
 
-print("addition:",r1)
-print("sub:",r2)
-print("multiplication:",r3)
-print("division:",r4)
-~                     
+print("file:",sys.argv[0])
+print("name:",s1)
+print("rno:",s2)
+print("dept:",s3)
